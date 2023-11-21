@@ -46,7 +46,12 @@ public class Main {
 
                         continua = false;
                         break;
+
+
+                    default:
+                        System.out.println("Numero Invalido!");
                 }
+
 
             } catch (Exception e) {
                 // Trata erros de entrada inválida
